@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.header {
+	background-color: #FFD700;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+}
+.header a {
+	text-decoration: none;
+	color: black;
+}
+.main {
+
+}
+.footer {
+
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	background: url('../image/bg.jpg');
+	background-color: black;
+	color: black;
+}
+.main {
+	text-align: center;
+}
+.wikipage {
+	float: left;
+	display: block;
+	width: 32%;
+	margin: 2px;
+	color: white;
+}
+.name {
+	margin: 0px;
+
+}
+body a {
+	color: white;
+	text-decoration: none;
+}
