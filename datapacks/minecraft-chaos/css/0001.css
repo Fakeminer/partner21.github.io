@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+header {
+	font-family: 'Comfortaa';
+	padding: 1px 0px 0px 1px;
+	margin: 0px 0px 0px 0px;
+	background-color: #FFA500;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%
+}
+.navbar a {
+	font-size: 25px;
+	text-decoration: none;
+	padding-left: 50px;
+	color: black;
+}
+.navbar a:hover {
+	color: #808080;
+}
+a div {
+	color: orange;
+}
+body {
+	font-family: 'Comfortaa';
+	background-color: #D3D3D3;
+}
+footer {
+	backgroung-color: #0000FF;
+}
+#block1 {
+	width: 900px;
+	float: left;
+	text-align: left;
+	padding: 0px 0px 0px 70px;
+}
+
+#block2 {
+	float: left;
+	text-align: right;
+	padding: 0px 0px 0px 25px;
+}
+#block3 {
+	width: 700px;
+	float: left;
+	text-align: center;
+	padding: 0px 0px 0px 90px;
+}
+#block2 h2 {
+	color: orange;
+}
+#block1 h2 {
+	color: orange;
+}
+.size30 {
+
+	font-size: 50px;
+}
+.center {
+	text-align: center;
+}
+.padding {
+	padding: 0px 50px 0px 50px;
+}
+.orange {
+	color: orange;
+	font-weight: bold;
+}
+.lemonfresh {
+	background-color: orange;
+	padding: 1px 0px 300px 0px;
+	left: 0;
+	top: 0;
+	margin-right: -8px;
+	margin-left: -8px;
+	
+}
+
+.popup {
+	position: absolute;
+	width: 100%;
+	height: 430%;
+	background-color: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.popup_body {
+	min-height: 1px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 15px;
+
+	background-color: white;
+	
+	margin: 250px;
+}
+.popup_content {
+	width: 800px;
+}
+.popup_close {
+	position: absolute;
+	right: 270px;
+	top: 270px;
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+.popup:target {
+	opacity: 1;
+	visibility: visible;
+}
+
+div img {
+	width: 200px;
+	height: 200px;
+
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	white-space: nowrap; 
+	padding: 0px 0px 0px 50px;
+
+}
+.sourcecode {
+	color: white;
+	background: #2b2a2a;
+	margin: 0px 250px 0px 0px;
+	border-radius: 3%;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.button {
+	background-color: #00FA9A;
+	border-radius: 1%;
+	transition-duration: 500ms;
+	cursor: default;
+	padding: 3px;
+}
+.button:hover {
+	background-color: #008B8B;
+}
