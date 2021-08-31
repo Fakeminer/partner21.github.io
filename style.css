@@ -1,8 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
     text-align: center;
+    text-decoration: none;
+}
+.block {
+    background-color: #DCDCDC;
+    margin: 0px 25%;
+    border: 1px solid #A9A9A9;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 7px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    transition-duration: 0.25s;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+.block:hover {
+    background-color: #808080;
+    cursor: default;
 }
 h1 {
     padding: 0px;
@@ -12,10 +31,12 @@ h2 {
     padding: 0px;
     margin: 0px;
 }
-p {
-    padding: 0px;
-    margin: 0px;
+.image {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 50%;
 }
-.article {
-    padding: 0px 150px;
+img {
+    width: 150px;
+    border-radius: 50%;
 }
