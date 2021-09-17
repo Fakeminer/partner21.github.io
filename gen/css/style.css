@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+body {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+h1 {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+h2 {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+p {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.wrapper {
+    background: rgba(0, 0, 0, 0.1);
+    padding: none;
+    /*margin: 25px;*/
+    border-radius: 25px;
+}
+.wrapper details {
+    padding: 0px 100px;
+    font-size: 20px;
+}
+header {
+    padding: 20%;
+}
+.block33 {
+    float: left;
+    width: 33%;
+}
+a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+details summary {
+    padding: 15px;
+    font-size: 30px;
+    cursor: default;
+}
+.hide {
+    display: none;
+}
+
+.tabs__block {
+    display: none;
+    margin: 50px;
+    margin-top: 0px;
+    padding: 15px;
+}
+.tabs__block:target {
+    display: block;
+}
+.tabs__block:nth-child(1) {
+    background: #DC143C;
+}
+.tabs__block:nth-child(2) {
+    background: #008B8B;
+}
+.tabs__block:nth-child(3) {
+    background: #4682B4;
+}
+.tabs__block:nth-child(4) {
+    background: #9370DB;
+}
+.tabs__block:nth-child(5) {
+    background: #DAA520
+}
+.tabs__block:nth-child(6) {
+    background: #32CD32;
+}
+
+.tabs__item {
+    padding-left: 15px;
+    padding-right: 15px;
+}
