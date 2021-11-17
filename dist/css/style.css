@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "Girloy";
+  src: url("../fonts/girloy-regular.eot");
+  src: local("O"), url("../fonts/girloy-regular.woff") format("woff"), url("../fonts/girloy-regular.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Girloy";
+  src: url("../fonts/girloy-bold.eot");
+  src: local("O"), url("../fonts/girloy-bold.woff") format("woff"), url("../fonts/girloy-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+.header__home {
+  font-family: "Girloy", sans-serif;
+  font-weight: 100;
+  margin: 0 auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.description {
+  max-width: 320px;
+  font-size: 14px;
+  padding-top: 160px;
+}
+
+.header__home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 149px;
+}
+
+@media (max-width: 932px) {
+  .header__element_info-block {
+    margin: 0 auto;
+    text-align: center;
+    order: 2;
+  }
+
+  .header__element_img {
+    margin: 0 auto;
+  }
+
+  .description {
+    padding-top: 0;
+  }
+}
+@media (max-width: 768px) {
+  .menu {
+    padding: 0px 20px;
+  }
+  .menu ul {
+    display: block;
+    min-width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .menu {
+    padding: 0px 180px;
+  }
+}
+.menu {
+  min-height: 62px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  background-color: #3DAA8F;
+}
+.menu ul {
+  padding-top: 3px;
+  margin: 0 auto;
+  display: inline;
+}
+.menu ul li {
+  display: inline-block;
+}
+
+.advantages {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages__picture img {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.advantages__card {
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #fff;
+  width: 177px;
+  height: 148px;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.projects {
+  width: 100%;
+  text-align: center;
+}
+
+.button {
+  background-color: #F05670;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 25px 21px;
+  margin: 10px 0px 0px 0px;
+}
+.button a {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+
+.wrapper {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.big-blue-weight {
+  color: #1E959B;
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+}
