@@ -52,17 +52,6 @@ table {
   font-weight: 700;
   font-style: normal;
 }
-.header__home {
-  font-family: "Girloy", sans-serif;
-  font-weight: 100;
-  margin: 0 auto;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
-
 .description {
   max-width: 320px;
   font-size: 14px;
@@ -90,11 +79,16 @@ a {
   .description {
     padding-top: 0;
   }
+
+  .interview__description {
+    text-align: center;
+  }
 }
 @media (max-width: 768px) {
   .menu {
     padding: 0px 20px;
   }
+
   .menu ul {
     display: block;
     min-width: 100%;
@@ -118,12 +112,12 @@ a {
   justify-content: space-between;
   background-color: #3DAA8F;
 }
-.menu ul {
+.menu .menu ul {
   padding-top: 3px;
   margin: 0 auto;
   display: inline;
 }
-.menu ul li {
+.menu .menu ul .menu ul li {
   display: inline-block;
 }
 
@@ -154,6 +148,122 @@ a {
   text-align: center;
 }
 
+.menu {
+  min-height: 62px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  background-color: #3DAA8F;
+}
+
+.menu ul {
+  padding-top: 3px;
+  margin: 0 auto;
+  display: inline;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.advantages {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.advantages__picture img {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.advantages__card {
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #fff;
+  width: 177px;
+  height: 148px;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.projects {
+  width: 100%;
+  text-align: center;
+}
+
+.project__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.projects__card {
+  margin: 0 auto;
+  flex-shrink: 1;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 312px;
+  height: 312px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.cards__title {
+  color: #1E959B;
+  font-family: Girloy, sans-serif;
+  font-weight: 700;
+}
+
+.cards__description {
+  color: #000;
+  font-family: Girloy, sans-serif;
+  font-weight: 100;
+}
+
+.interview {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.interview__element {
+  margin: 0 auto;
+  text-align: right;
+}
+
+.interview__element_img {
+  text-align: center;
+}
+
+.interview__description {
+  font-family: "Girloy", sans-serif;
+}
+
+.interview__element_info-block {
+  height: 100%;
+}
+
+.buy {
+  display: none;
+}
+
+body {
+  max-width: 100%;
+}
+
 .button {
   background-color: #F05670;
   display: inline-block;
@@ -165,6 +275,8 @@ a {
   text-transform: uppercase;
   font-weight: 700;
   color: white;
+  text-decoration: none;
+  font-family: "Girloy", sans-serif;
 }
 
 .wrapper {
@@ -175,6 +287,19 @@ a {
 .big-blue-weight {
   color: #1E959B;
   font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+p {
+  font-weight: 100;
+  font-family: "Girloy", sans-serif;
+}
+
+.title {
+  font-family: "Girloy", sans-serif;
+  font-weight: 700;
+  color: #1E959B;
   font-size: 32px;
   text-transform: uppercase;
 }
