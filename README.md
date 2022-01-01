@@ -1,1 +1,0 @@
-# fakeminer.github.io
