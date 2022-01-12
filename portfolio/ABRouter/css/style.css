@@ -1,0 +1,568 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@charset "UTF-8";
+.default-menu__element-3 .signing__button:hover, .default-menu__links .links__url:hover {
+  color: #b8b8b8;
+}
+.default-menu__element-3 .signing__button:active, .default-menu__links .links__url:active {
+  color: blue;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  min-width: 320px;
+}
+
+body {
+  color: #000;
+  line-height: 1;
+  font-family: "Inter";
+  font-size: 0.875rem;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input,
+button,
+textarea {
+  font-family: "Inter";
+  font-size: inherit;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.lock body {
+  overflow: hidden;
+  touch-action: none;
+}
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.wrapper > main {
+  flex: 1 1 auto;
+}
+.wrapper > * {
+  min-width: 0;
+}
+
+* {
+  transition: all 0.3s ease;
+}
+
+/*
+(i) Стили будут применяться ко 
+всем классам содержащим *__container
+Например header__container, main__container и т.д.
+Снипет (HTML): cnt
+*/
+[class*=__container] {
+  max-width: 76.25rem;
+  box-sizing: content-box;
+  margin: 0 auto;
+  padding: 0 0.9375rem;
+}
+
+.tabs__navigation {
+  display: flex;
+}
+.tabs__title {
+  width: 50%;
+  padding: 0rem 0;
+  margin-top: -65px;
+}
+.tabs__title._tab-active {
+  border-bottom: #32AD67 3px solid;
+}
+[class*=-ibg] {
+  position: relative;
+}
+[class*=-ibg] img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+[class*=-ibg_contain] img {
+  object-fit: contain;
+}
+
+.hero {
+  font-size: 3.125rem;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Inter", sans-serif;
+  color: #000;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 1.875rem;
+  font-family: "Inter", sans-serif;
+  color: #000;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  color: #000;
+  font-weight: 800;
+}
+
+.text-l {
+  font-size: 1.125rem;
+  font-family: "Inter", sans-serif;
+  color: #000;
+  font-weight: 400;
+}
+
+.text-m {
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  color: #000;
+  font-weight: 400;
+}
+
+.text-s {
+  font-size: 0.875rem;
+  font-family: "Inter", sans-serif;
+  color: #000;
+  font-weight: 400;
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  font-family: "Inter", sans-serif;
+  color: #5262EE;
+  font-weight: 800;
+}
+
+.button-green {
+  padding: 23px 57px;
+  background-color: #32AD67;
+  border-radius: 10px;
+  font-size: 1.125rem;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+
+.header {
+  background-color: #0E1C4C;
+}
+
+.default-menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media (min-width: 78.125em) {
+  .default-menu {
+    min-height: 6.5rem;
+  }
+}
+@media (min-width: 20em) and (max-width: 78.125em) {
+  .default-menu {
+    min-height: clamp( 3.375rem , 2.2997311828rem  +  5.376344086vw , 6.5rem );
+  }
+}
+@media (max-width: 20em) {
+  .default-menu {
+    min-height: 3.375rem;
+  }
+}
+.default-menu__element-1 {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.default-menu__links .links__urls {
+  white-space: nowrap;
+}
+.default-menu__links .links__url {
+  white-space: nowrap;
+  padding: 0.625rem 0;
+  display: inline;
+  font-size: 1.125rem;
+  font-family: "Inter", sans-serif;
+  color: #9697AB;
+  font-weight: 500;
+}
+@media (min-width: 78.125em) {
+  .default-menu__links .links__url {
+    margin-left: 1.65625rem;
+  }
+}
+@media (min-width: 20em) and (max-width: 78.125em) {
+  .default-menu__links .links__url {
+    margin-left: clamp( 0.828125rem , 0.5431787634rem  +  1.4247311828vw , 1.65625rem );
+  }
+}
+@media (max-width: 20em) {
+  .default-menu__links .links__url {
+    margin-left: 0.828125rem;
+  }
+}
+@media (min-width: 78.125em) {
+  .default-menu__links .links__url {
+    margin-right: 1.65625rem;
+  }
+}
+@media (min-width: 20em) and (max-width: 78.125em) {
+  .default-menu__links .links__url {
+    margin-right: clamp( 0.828125rem , 0.5431787634rem  +  1.4247311828vw , 1.65625rem );
+  }
+}
+@media (max-width: 20em) {
+  .default-menu__links .links__url {
+    margin-right: 0.828125rem;
+  }
+}
+@media (min-width: 78.125em) {
+  .default-menu__links .links__url {
+    font-size: 1.125rem;
+  }
+}
+@media (min-width: 20em) and (max-width: 78.125em) {
+  .default-menu__links .links__url {
+    font-size: clamp( 0.875rem , 0.7889784946rem  +  0.4301075269vw , 1.125rem );
+  }
+}
+@media (max-width: 20em) {
+  .default-menu__links .links__url {
+    font-size: 0.875rem;
+  }
+}
+.default-menu__links .link-selected {
+  position: relative;
+  color: white;
+  display: inline-block;
+  border-bottom: 6px solid #32AD67;
+}
+.default-menu__element-2 {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.default-menu__signing {
+  margin-top: -4px;
+}
+.default-menu__element-3 {
+  text-align: right;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.default-menu__element-3 .signing__button {
+  display: inline-block;
+  font-size: 0.9375rem;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  margin: 8px 10px 10px;
+  white-space: nowrap;
+}
+@media (max-width: 61.99875em) {
+  .default-menu__element {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.welcome {
+  background-color: #0E1C4C;
+}
+.welcome__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media (min-width: 78.125em) {
+  .welcome__container {
+    padding-bottom: 6.4375rem;
+  }
+}
+@media (min-width: 20em) and (max-width: 78.125em) {
+  .welcome__container {
+    padding-bottom: clamp( 0.625rem , -1.375rem  +  10vw , 6.4375rem );
+  }
+}
+@media (max-width: 20em) {
+  .welcome__container {
+    padding-bottom: 0.625rem;
+  }
+}
+.welcome__image {
+  display: block;
+  max-width: 450px;
+}
+@media (max-width: 61.99875em) {
+  .welcome__image {
+    width: 100%;
+  }
+}
+.welcome__element {
+  max-width: 50%;
+}
+@media (max-width: 61.99875em) {
+  .welcome__element {
+    max-width: none;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 78.125em) {
+  .welcome__element-1 {
+    margin-top: 7.5625rem;
+  }
+}
+@media (min-width: 20em) and (max-width: 78.125em) {
+  .welcome__element-1 {
+    margin-top: clamp( 0.625rem , -1.7620967742rem  +  11.935483871vw , 7.5625rem );
+  }
+}
+@media (max-width: 20em) {
+  .welcome__element-1 {
+    margin-top: 0.625rem;
+  }
+}
+.welcome__title {
+  margin-bottom: 2.1875rem;
+}
+.welcome__description {
+  color: #ffffff80;
+}
+.welcome__element-2 {
+  flex-shrink: 1;
+  margin: 0 auto;
+}
+.welcome__start {
+  display: inline-block;
+  margin-top: 4.75rem;
+}
+.welcome__partners {
+  margin-top: 8.75rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.welcome__companies {
+  color: #ffffff80;
+  margin-left: 1.5625rem;
+  margin-right: 1.6875rem;
+  white-space: nowrap;
+}
+.welcome__partners-list {
+  display: flex;
+  align-items: center;
+}
+.welcome__partner {
+  display: inline-block;
+  margin: 0 1.5625rem;
+  flex-grow: 1;
+}
+
+.products {
+  margin-bottom: 3.25rem;
+}
+.products__subtitle {
+  margin-top: 9.125rem;
+}
+.products__blocks {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+.products__element {
+  flex-basis: 50%;
+}
+@media (max-width: 61.99875em) {
+  .products__element {
+    flex-basis: 100%;
+  }
+}
+.products__element-2 {
+  max-width: 32.6875rem;
+}
+@media (max-width: 61.99875em) {
+  .products__element-2 {
+    margin: 0 auto;
+  }
+}
+
+.meet-products h1 {
+  padding-top: 1.5625rem;
+}
+@media (min-width: 78.125em) {
+  .meet-products h1 {
+    padding-bottom: 3.25rem;
+  }
+}
+@media (min-width: 20em) and (max-width: 78.125em) {
+  .meet-products h1 {
+    padding-bottom: clamp( 0.625rem , -0.2782258065rem  +  4.5161290323vw , 3.25rem );
+  }
+}
+@media (max-width: 20em) {
+  .meet-products h1 {
+    padding-bottom: 0.625rem;
+  }
+}
+
+.meet-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.meet-cards__card {
+  padding: 0 20px;
+  flex-basis: 33.333%;
+}
+@media (max-width: 61.99875em) {
+  .meet-cards__card {
+    flex-basis: 50%;
+  }
+}
+@media (max-width: 47.99875em) {
+  .meet-cards__card {
+    flex-basis: 100%;
+  }
+}
+.meet-cards__card img {
+  margin: 10px 0;
+}
+.features {
+  padding: 8.125rem 0;
+  background-color: #F7F8FC;
+}
+.features__subtitle {
+  text-align: center;
+  margin-bottom: 1.375rem;
+}
+.features__title {
+  text-align: center;
+  margin-bottom: 1.6875rem;
+}
+.features__description {
+  text-align: center;
+  margin-bottom: 4.875rem;
+}
+
+.ftr-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.ftr-cards__card {
+  flex-basis: 30.9%;
+  text-align: center;
+  padding: 3.75rem 3.25rem 3.75rem;
+  background-color: #fff;
+}
+@media (max-width: 61.99875em) {
+  .ftr-cards__card {
+    flex-basis: 47.5%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 47.99875em) {
+  .ftr-cards__card {
+    flex-basis: 100%;
+  }
+}
+
+.ftr-card {
+  margin-bottom: 4.8125rem;
+}
+.ftr-card__title {
+  margin-bottom: 1.25rem;
+}
+.ftr-card img {
+  margin-bottom: 1.5625rem;
+}
+
+.what-is__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10.9375rem;
+}
+@media (max-width: 61.99875em) {
+  .what-is__container {
+    flex-wrap: wrap;
+  }
+}
+.what-is__element-1 {
+  max-width: 23.75rem;
+}
+@media (max-width: 61.99875em) {
+  .what-is__element {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+.what-is__subtitle {
+  margin-top: 2.1875rem;
+}
+.what-is__title {
+  margin-top: 1.5625rem;
+}
+.what-is__description {
+  margin-top: 1.5625rem;
+  margin-bottom: 3.75rem;
+}
