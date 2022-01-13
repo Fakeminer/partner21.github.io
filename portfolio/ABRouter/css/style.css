@@ -327,6 +327,16 @@ h3 {
   }
 }
 
+.menu-footer {
+  display: flex;
+  padding: 8.25rem 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.menu-footer__title {
+  font-weight: 700;
+}
+
 .welcome {
   background-color: #0E1C4C;
 }
@@ -565,4 +575,84 @@ h3 {
 .what-is__description {
   margin-top: 1.5625rem;
   margin-bottom: 3.75rem;
+}
+.plans {
+  background-color: #0E1C4C;
+  padding: 8.375rem 0;
+}
+.plans__subtitle {
+  margin-bottom: 1.8125rem;
+}
+.plans__title {
+  color: #fff;
+  margin-bottom: 3.5rem;
+}
+.plans__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.plans__card {
+  min-width: 320px;
+  max-width: 31.5%;
+  flex-grow: 1;
+}
+.plans__card-1 .card-plans__button {
+  background-color: #32AD67;
+}
+
+.card-plans {
+  background-color: #162457;
+  padding: 2.5rem 2.75rem 6.5rem;
+  border-radius: 0.9375rem;
+  position: relative;
+}
+.card-plans__title {
+  color: white;
+}
+.card-plans__price {
+  margin-top: 1.125rem;
+  color: #ffffff80;
+}
+.card-plans__price::after {
+  content: "";
+  display: block;
+  height: 10px;
+  border-bottom: #ffffff10 1px solid;
+  margin-top: 2.1875rem;
+}
+.card-plans__abitilies {
+  margin-top: 1.6875rem;
+  color: #ffffff60;
+}
+.card-plans__abitilie {
+  position: relative;
+  margin: 1.25rem 0;
+  margin-left: 25px;
+  color: #ffffff80;
+}
+.card-plans__abitilie::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/List Check.png");
+  background-repeat: no-repeat;
+  margin-left: -25px;
+  position: absolute;
+  top: -2px;
+  left: 0;
+}
+.card-plans__button {
+  display: inline-block;
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+  right: 32px;
+  text-align: center;
+  background-color: #ffffff10;
+}
+.card-plans:hover {
+  cursor: url("../img/Cursor.svg");
+  background-color: #22326A;
 }
